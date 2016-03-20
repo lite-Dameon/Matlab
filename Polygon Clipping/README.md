@@ -24,5 +24,7 @@ each step.
  * Case 2 — vertex B’ is added to the output (edge AB is clipped to AB’)
  * Case 3 — no vertex added (segment AB clipped out)
  * Case 4 — vertices A’ and B are added to the output (edge AB is clipped to A’B)
+ 
+
 ## Demo Output
 ![Polygon Clipping demo ](https://github.com/mamexo/Matlab/blob/master/Polygon%20Clipping/img/matlab_polygon_clipping.png)
