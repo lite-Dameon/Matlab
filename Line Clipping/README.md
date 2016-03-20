@@ -3,8 +3,9 @@ Line Clipping
 Cohen and Sutherland Line Clipping Algorithm
 
 ##How to run
-* g++ line_clipping.cpp -lglut -lGL -lGLU 
-* ./a.out
+* p1 = struct('x',220,'y',200);
+* p2 = struct('x',440,'y',30);
+* CohenSutherlandLineAlgorithm(p1,p2);
 
 
 ##Steps Involved
