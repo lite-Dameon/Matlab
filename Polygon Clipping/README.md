@@ -4,8 +4,12 @@
 The Sutherland–Hodgman algorithm is used for clipping polygons. It works by extending each line of the convex clip polygon in turn and selecting only vertices from the subject polygon that are on the visible side.
 
 ##How to run
-* g++ polygon_clipping.cpp -lglut -lGL -lGLU 
-* ./a.out
+* p1 = struct('x',210,'y',90);
+* p2 = struct('x',300,'y',10);
+* p3 = struct('x',420,'y',90);
+* p4 = struct('x',300,'y',220);
+* vertex_list = [p1 p2 p3 p4];
+* Sutherland_hodgeman_polygon_clipping(vertex_list);
 
 
 ##Basic Idea
